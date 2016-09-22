@@ -53,7 +53,13 @@ d-i passwd/user-password-crypted password $6$r.diKFuYGn3/dzH$3lLOcr5rc.4YqO8IFMB
 # APT-Options, Ρυθμίσεις APT
 # You can choose to install non-free and contrib software.
 d-i apt-setup/non-free boolean true
-#d-i apt-setup/contrib boolean true
+d-i apt-setup/contrib boolean true
+d-i apt-setup/backports boolean true
+d-i apt-setup/multiverse boolean true
+d-i apt-setup/proposed  boolean true
+d-i apt-setup/universe  boolean true
+# Enable deb-src lines
+d-i apt-setup/universe/source boolean true
 # Uncomment this if you don't want to use a network mirror.
 #d-i apt-setup/use_mirror boolean false
 # Select which update services to use; define the mirrors to be used.
@@ -61,11 +67,11 @@ d-i apt-setup/non-free boolean true
 d-i apt-setup/services-select multiselect security, updates
 d-i apt-setup/security_host string security.debian.org
 d-i apt-setup/security-updates boolean true
-
  
-d-i apt-setup/local0/source boolean false
-d-i apt-setup/local1/source boolean false
-d-i apt-setup/local2/source boolean false
+#d-i apt-setup/local0/source boolean false
+#d-i apt-setup/local1/source boolean false
+#d-i apt-setup/local2/source boolean false
+
 # By default the installer requires that repositories be authenticated
 # using a known gpg key. This setting can be used to disable that
 # authentication. Warning: Insecure, not recommended.
@@ -89,7 +95,7 @@ tasksel tasksel/first multiselect standard, gnome-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client vim less rsync
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
