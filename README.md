@@ -20,9 +20,9 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 # Παραδοτέο
 Όνομα Εφαρμογής: Open Source Developer Workstation
 
-Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για 
+Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για προγραμματιστές ανοικτού λογισμικού.
 
-Διανομή: Το .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμο [εδώ] (https://www.dropbox.com/s/8cppnu6ld8pf39o/Edu-Preschool.iso)
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ISOimages/OSDeveloperWorkstation/32bit/OSDeveloper32bit.iso">32bit</A>,<A href="http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ISOimages/OSDeveloperWorkstation/64bit/OSDeveloper64bit.iso">64bit</A>
 
 # Edu-Distributions
 <p align="center">
