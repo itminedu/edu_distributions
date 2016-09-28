@@ -95,7 +95,7 @@ tasksel tasksel/first multiselect standard, gnome-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla libappindicator1 libcurl3 vlc 
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
@@ -110,6 +110,7 @@ d-i preseed/late_command string \
   wget -O /target/tmp/netbeans-8.1-linux.sh http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/netbeans-8.1-linux.sh ; \
   wget -O /target/tmp/developer-studio-eclipse-jee-luna-linux-gtk-x86_64-3.8.0.zip http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/developer-studio-eclipse-jee-luna-linux-gtk-x86_64-3.8.0.zip ; \
   wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/essentialfiles.tar.gz ; \
+  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/google-chrome-stable_current_amd64.deb ; \
   in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
   in-target mv /tmp/sources.list /etc/apt ; \
   in-target tar xjvf /tmp/sublime_text_3_build_3124_x64.tar.bz2 -C /tmp/ ; \
