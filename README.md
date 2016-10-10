@@ -30,5 +30,5 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 </p>
 <p align="justify">
 
-Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry og Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/Jb3wgkeGqV3CmXkjoRR2D1">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Mf0b3XrryPA4W5yVAcOC41">64bit</A>
+Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/Jb3wgkeGqV3CmXkjoRR2D1">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Mf0b3XrryPA4W5yVAcOC41">64bit</A>
 The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
