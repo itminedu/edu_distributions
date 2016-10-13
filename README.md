@@ -22,7 +22,7 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για προγραμματιστές ανοικτού λογισμικού.
 
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/IcA72VgK7s9m8NqSpWpDY6">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/ZlHn1QBqYyMjO78laD78N5">64bit</A>
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/DPZssD5gN4ve4Yk5pJydE5">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/MYviDXUNOwJ0zIlNUGSMS5">64bit</A>
 
 # Edu-Distributions
 <p align="center">
@@ -30,5 +30,5 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 </p>
 <p align="justify">
 
-Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/IcA72VgK7s9m8NqSpWpDY6">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/ZlHn1QBqYyMjO78laD78N5">64bit</A>
+Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/DPZssD5gN4ve4Yk5pJydE5">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/MYviDXUNOwJ0zIlNUGSMS5">64bit</A>
 The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
