@@ -95,7 +95,7 @@ tasksel tasksel/first multiselect standard, gnome-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla chromium vlc python-pip subversion wine ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree wine32 q4wine python-tk flashplugin-nonfree libqt4-gui alien
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla chromium vlc python-pip subversion wine ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree wine32 q4wine python-tk flashplugin-nonfree libqt4-gui alien python-dev python3-dev
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
