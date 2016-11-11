@@ -17,7 +17,7 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 <br>
 <p align="center">
-  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary64-desktop.png" width=100 height=100/>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary64-desktop.png" width=300 height=300/>
 </p>
 <p align="justify">
 Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSElementary για την πρωτοβάθμια εκπαίδευση η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα της πρωτοβάθμιας εκπαίδευσης.  
