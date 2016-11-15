@@ -1,0 +1,12 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[el_GR]=
+Name[el_GR]=RunMe
+Exec=gnome-terminal -e "/home/student/runme.sh"
+Comment[el_GR]= Full Stack IDE
+Name=RunMe
+Comment=Script Development
+Icon=

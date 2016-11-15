@@ -1,0 +1,15 @@
+# 
+
+# deb cdrom:[Debian GNU/Linux 8.6.0 _Jessie_ - Official i386 DVD Binary-1 20160917-13:04]/ jessie contrib main
+
+#deb cdrom:[Debian GNU/Linux 8.6.0 _Jessie_ - Official i386 DVD Binary-1 20160917-13:04]/ jessie contrib main
+
+deb http://ftp.gr.debian.org/debian/ jessie main non-free contrib
+deb-src http://ftp.gr.debian.org/debian/ jessie main non-free contrib
+
+deb http://security.debian.org/ jessie/updates main contrib non-free
+deb-src http://security.debian.org/ jessie/updates main contrib non-free
+
+# jessie-updates, previously known as 'volatile'
+deb http://ftp.gr.debian.org/debian/ jessie-updates main contrib non-free
+deb-src http://ftp.gr.debian.org/debian/ jessie-updates main contrib non-free

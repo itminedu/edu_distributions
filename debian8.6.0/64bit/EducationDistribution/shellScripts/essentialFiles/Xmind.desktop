@@ -1,0 +1,21 @@
+[Desktop Entry]
+Comment[el]=Script Development
+Comment=Script Development
+Exec=gnome-terminal -e "/home/student/EducationSoftware/Xmind/XMind_amd64/XMind"
+GenericName[el]=
+GenericName=
+Icon=/home/student/EducationSoftware/Xmind/XMind_amd64/xmind.png
+MimeType=
+Name[el]=XMind
+Name=XMind
+Name[en_US]=Xmind
+Path=/home/student/EducationSoftware/Xmind/XMind_amd64
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+Version=1.0
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=

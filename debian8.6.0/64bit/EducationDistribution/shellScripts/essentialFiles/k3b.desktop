@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Name=k3b
+Comment=CD/DVD burn
+Exec=k3b
+Icon=/usr/share/kde4/apps/k3b/icons/hicolor/64x64/actions/musicbrainz.png
