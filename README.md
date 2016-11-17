@@ -25,13 +25,13 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 
 # Παραδοτέα
-Όνομα Εφαρμογής: Open Source Developer Workstation
+α. Όνομα Εφαρμογής: Open Source Developer Workstation
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για προγραμματιστές ανοικτού λογισμικού.
 
 Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/g7Rzx25Wy5MI6b5Xumo0u3">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
 
-Όνομα Εφαρμογής: Open Source Elementary Workstation
+β. Όνομα Εφαρμογής: Open Source Elementary Workstation
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την πρωτοβάθμια εκπαίδευση
 
