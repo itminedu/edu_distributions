@@ -21,7 +21,7 @@ cp /home/student/scratch.desktop "/home/student/Επιφάνεια εργασί�
 chmod +x "/home/student/Επιφάνεια εργασίας/scratch.desktop"
 cp /home/student/vlc.desktop "/home/student/Επιφάνεια εργασίας"
 chmod +x "/home/student/Επιφάνεια εργασίας/vlc.desktop"
-uxterm -e "wget http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/xmind-8-linux.zip /home/student ; unzip -o /home/student/xmind-8-linux.zip -d /home/student/EducationSoftware/Xmind ; cp /home/student/xmind.png /home/student/EducationSoftware/Xmind/XMind_amd64 ; sudo /home/student/EducationSoftware/Xmind/setup.sh ; sudo apt-get update ; sudo apt-get -y --force-yes install oracle-java8-installer ; sudo /home/student/tsrepo.sh ; sudo apt-get -y --force-yes install wine-el ; sudo apt-get -y --force-yes install dimotiko ; sudo apt-get -y --force-yes install dimotiko-extra"
+uxterm -e "wget http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/xmind-8-linux.zip /home/student ; unzip -o /home/student/xmind-8-linux.zip -d /home/student/EducationSoftware/Xmind ; sudo /home/student/EducationSoftware/Xmind/setup.sh ; sudo apt-get update ; sudo apt-get -y --force-yes install oracle-java8-installer ; sudo /home/student/tsrepo.sh ; sudo apt-get -y --force-yes install wine-el ; sudo apt-get -y --force-yes install dimotiko ; sudo apt-get -y --force-yes install dimotiko-extra"
 
 
 

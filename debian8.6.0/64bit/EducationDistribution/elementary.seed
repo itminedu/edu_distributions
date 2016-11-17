@@ -35,11 +35,11 @@ d-i clock-setup/ntp boolean true
 d-i clock-setup/ntp-server string ntp.ntua.gr
 
 # User-Accounts (Ρυθμίσεις Χρηστών)
-d-i passwd/root-login boolean false
+d-i passwd/root-login boolean true
 #d-i passwd/root-password password ostdeveloper
 #d-i passwd/root-password-again password ostdeveloper
 #encrypted root password, uncomment
-#d-i passwd/root-password-crypted password [MD5 hash]
+d-i passwd/root-password-crypted password $6$UhZRQ2LZ$uDKRSzGM9oyEo2lIHW5QLo8yCeOr08FrVHlrRIs6D8Mjf9HKouymq7/ovg0JoDYdXSodGhL5jv/pi4CWZqmDD1
 # Alternatively, to skip creation of a normal user account.
 #d-i passwd/make-user boolean false
 # To create a normal user account.
@@ -62,7 +62,7 @@ d-i apt-setup/universe  boolean true
 # Enable deb-src lines
 d-i apt-setup/universe/source boolean true
 # Uncomment this if you don't want to use a network mirror.
-#d-i apt-setup/use_mirror boolean false
+d-i apt-setup/use_mirror boolean true
 # Select which update services to use; define the mirrors to be used.
 # Values shown below are the normal defaults.
 d-i apt-setup/services-select multiselect security, updates
@@ -88,7 +88,7 @@ d-i mirror/country string GR
 d-i mirror/http/hostname string ftp.gr.debian.org
 d-i mirror/http/directory string /debian
 d-i mirror/suite string jessie
-#d-i mirror/http/proxy string
+d-i mirror/http/proxy string
 
 
 #Install-Tasks, Ρυθμίσεις Εργασιών Εγκατάστασης
@@ -96,7 +96,7 @@ tasksel tasksel/first multiselect standard, kde-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath geogebra openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal kig marble kgeography kturtle pysioGame rosegarden step
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
@@ -107,11 +107,20 @@ d-i finish-install/reboot_in_progress note
 #Post-Installation Commands, Ρυθμίσεις σεναρίων προς εκτέλεση μετά την εγκατάσταση
 #d-i preseed/late_command string in-target wget -P /tmp/ http://$server/skript.sh; in-target chmod +x /tmp/s
 d-i preseed/late_command string \
-  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/essentialfiles1.tar.gz ; \
-  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/google-chrome-stable_current_amd64.deb ; \
-  wget -O /target/tmp/VidyoDesktopInstaller-ubuntu64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/developerEdition/VidyoDesktopInstaller-ubuntu64.deb ; \
+  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~sofiakom/customDistros/ElementaryEdition/essentialfiles1.tar.gz ; \
+  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/google-chrome-stable_current_amd64.deb ; \
   in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
   in-target mv /tmp/sources.list /etc/apt ; \
-  in-target tar xzvf /tmp/anaconda-1.3.4.tar.gz -C /tmp/sublime_text_3/Packages/ ; \
+  in-target mv /tmp/sudoers /etc ; \
+  in-target cp /tmp/RunME.desktop /home/student/RunME.desktop ; \
+  in-target cp /tmp/Xmind.desktop /home/student/Xmind.desktop ; \
+  in-target cp /tmp/runme.sh /home/student/runme.sh ; \
+  in-target chown student:student /home/student/RunME.desktop ; \
+  in-target chown student:student /home/student/Xmind.desktop ; \
+  in-target chown student:student /home/student/runme.sh ; \
+  in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
+  in-target chmod +x /home/student/runme.sh ; \
+  in-target chmod +x /home/student/*.desktop ; \
+  in-target chmod +x /tmp/postinstall.sh ; \
+  in-target /bin/sh /tmp/postinstall.sh ; \
   in-target touch /root/postinstallationactions.done
-
