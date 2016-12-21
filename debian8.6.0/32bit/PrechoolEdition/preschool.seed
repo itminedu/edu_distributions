@@ -106,8 +106,8 @@ d-i finish-install/reboot_in_progress note
 #Post-Installation Commands, Ρυθμίσεις σεναρίων προς εκτέλεση μετά την εγκατάσταση
 #d-i preseed/late_command string in-target wget -P /tmp/ http://$server/skript.sh; in-target chmod +x /tmp/s
 d-i preseed/late_command string \
-  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/essentialfiles1.tar.gz ; \
-  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/google-chrome-stable_current_amd64.deb ; \
+  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/essentialfiles.tar.gz ; \
+#wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/google-chrome-stable_current_amd64.deb ; \
   in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
   in-target mv /tmp/sources.list /etc/apt ; \
   in-target mv /tmp/sudoers /etc ; \
@@ -117,7 +117,7 @@ d-i preseed/late_command string \
   in-target chown student:student /home/student/RunME.desktop ; \
 #in-target chown student:student /home/student/Xmind.desktop ; \
   in-target chown student:student /home/student/runme.sh ; \
-  in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
+#in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
   in-target chmod +x /home/student/runme.sh ; \
   in-target chmod +x /home/student/*.desktop ; \
   in-target chmod +x /tmp/postinstall.sh ; \

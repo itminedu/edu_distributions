@@ -12,7 +12,7 @@ d-i console-setup/layoutcode string gr_GR
 
 #Ρυθμίσεις Δικτύου
 d-i netcfg/get_domain string unassigned-domain
-d-i netcfg/get_hostname string PreschoolWorkstation
+d-i netcfg/get_hostname string ElementaryWorkstation
 d-i netcfg/choose_interface select auto
 #d-i netcfg/wireless_wep string
 
@@ -36,20 +36,20 @@ d-i clock-setup/ntp-server string ntp.ntua.gr
 
 # User-Accounts (Ρυθμίσεις Χρηστών)
 d-i passwd/root-login boolean true
-#d-i passwd/root-password password ostpreschool
-#d-i passwd/root-password-again password ostpreschool
+#d-i passwd/root-password password ostdeveloper
+#d-i passwd/root-password-again password ostdeveloper
 #encrypted root password, uncomment
-d-i passwd/root-password-crypted password $6$9SBj2QAMoc$p1yY1Uirflr.GZXMmWnCBg9TED67EjpAEIWMTNKvL4NiSwQUdcStGUbOxHg9Ll6d.4XXDu0Kx2M50k8MGdDN80
+d-i passwd/root-password-crypted password $6$UhZRQ2LZ$uDKRSzGM9oyEo2lIHW5QLo8yCeOr08FrVHlrRIs6D8Mjf9HKouymq7/ovg0JoDYdXSodGhL5jv/pi4CWZqmDD1
 # Alternatively, to skip creation of a normal user account.
 #d-i passwd/make-user boolean false
 # To create a normal user account.
-d-i passwd/user-fullname string Preschool Student
+d-i passwd/user-fullname string Elementary Student
 d-i passwd/username string student
 # Normal user's password, either in clear text
 #d-i passwd/user-password password insecure
 #d-i passwd/user-password-again password insecure
 #encrypted user password,uncomment
-d-i passwd/user-password-crypted password $6$/ivXef0IK02.2aP$bHiTms21Z7OiOv3eT.o/CCb7p7751lMKIE7weHyLTR/7ICDBpjTtjJwaBvS8g58sBhIF4EM0XmqSO.XCtGA0k/
+d-i passwd/user-password-crypted password $6$j9uGhFASr$dBUDThQzRiIeZB3EhaobtrZgwYWDvot1OWXq5ZLF5uJogYvc.b7gWWuBWnYfa.d5Z.4aXsFYTNcvVpVM7z3l60		
 
 # APT-Options, Ρυθμίσεις APT
 # You can choose to install non-free and contrib software.
@@ -93,10 +93,11 @@ d-i mirror/http/proxy string
 
 #Install-Tasks, Ρυθμίσεις Εργασιών Εγκατάστασης
 tasksel tasksel/first multiselect standard, kde-desktop
-#tasksel tasksel/first multiselect standard, desktop,kde-desktop, laptop, ubuntu-desktop
+#tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gcompris task-greek-kde-desktop tuxguitar extremetuxracer tuxtype tuxpaint tuxpaint-config tuxpaint-stamps-default tuxfootball blinken gnome-terminal python-pygame pysiogame lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common audacity openshot childsplay childsplay-alphabet-sounds-ca fonts-dejavu python-sqlalchemy python-sqlalchemy-ext ttf-dejavu ttf-dejavu-core ttf-dejavu-extra chromium geogebra kgeography tuxmath
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath geogebra openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal kig marble kgeography kturtle pysioGame rosegarden step chromium
+d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
 d-i grub-installer/only_debian boolean true
@@ -106,21 +107,20 @@ d-i finish-install/reboot_in_progress note
 #Post-Installation Commands, Ρυθμίσεις σεναρίων προς εκτέλεση μετά την εγκατάσταση
 #d-i preseed/late_command string in-target wget -P /tmp/ http://$server/skript.sh; in-target chmod +x /tmp/s
 d-i preseed/late_command string \
-  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/essentialfiles1.tar.gz ; \
-  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~kotsimp/customDistros/PreschoolEdition/google-chrome-stable_current_amd64.deb ; \
+  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~sofiakom/customDistros/ElementaryEdition/essentialfiles1.tar.gz ; \
+
   in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
   in-target mv /tmp/sources.list /etc/apt ; \
   in-target mv /tmp/sudoers /etc ; \
   in-target cp /tmp/RunME.desktop /home/student/RunME.desktop ; \
-#in-target cp /tmp/Xmind.desktop /home/student/Xmind.desktop ; \
+  in-target cp /tmp/Xmind.desktop /home/student/Xmind.desktop ; \
   in-target cp /tmp/runme.sh /home/student/runme.sh ; \
   in-target chown student:student /home/student/RunME.desktop ; \
-#in-target chown student:student /home/student/Xmind.desktop ; \
+  in-target chown student:student /home/student/Xmind.desktop ; \
   in-target chown student:student /home/student/runme.sh ; \
-  in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
+ 
   in-target chmod +x /home/student/runme.sh ; \
   in-target chmod +x /home/student/*.desktop ; \
   in-target chmod +x /tmp/postinstall.sh ; \
   in-target /bin/sh /tmp/postinstall.sh ; \
   in-target touch /root/postinstallationactions.done
-
