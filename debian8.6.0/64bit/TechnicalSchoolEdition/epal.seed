@@ -1,5 +1,5 @@
-#Ξ‘Ξ΄ΞµΞΉΞ± Ο‡ΟΞ®ΟƒΞ·Ο‚ GPL3
-#Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ“ΟΞ±ΞΌΞΌΞ®Ο‚ Ξ•Ξ½Ο„ΞΏΞ»ΟΞ½
+#Αδεια χρήσης GPL3
+#Ρυθμίσεις Γραμμής Εντολών
 d-i debian-installer/locale string el_GR.UTF-8
 d-i debian-installer/keymap select en
 d-i console-keymaps-at/keymap select en
@@ -10,9 +10,9 @@ d-i countrychooser/country-name select Greece
 d-i console-setup/layoutcode string gr_GR
 
 
-#Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ”ΞΉΞΊΟ„ΟΞΏΟ…
+#Ρυθμίσεις Δικτύου
 d-i netcfg/get_domain string unassigned-domain
-d-i netcfg/get_hostname string ElementaryWorkstation
+d-i netcfg/get_hostname string EpalWorkstation
 d-i netcfg/choose_interface select auto
 #d-i netcfg/wireless_wep string
 
@@ -20,7 +20,7 @@ d-i netcfg/choose_interface select auto
 #d-i clock-setup/utc-auto boolean true
 
 
-#Partitioning-Options, Partition-Editor (Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ”ΞΉΞ±ΞΌΞµΟΞΉΟƒΞΌΞ¬Ο„Ο‰Ξ½ Ξ”Ξ―ΟƒΞΊΞΏΟ…)
+#Partitioning-Options, Partition-Editor (Ρυθμίσεις Διαμερισμάτων Δίσκου)
 d-i partman-auto/method string regular
 d-i partman-auto/purge_lvm_from_device boolean true
 d-i partman-lvm/confirm boolean true
@@ -34,24 +34,24 @@ d-i time/zone string Europe/Athens
 d-i clock-setup/ntp boolean true
 d-i clock-setup/ntp-server string ntp.ntua.gr
 
-# User-Accounts (Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ§ΟΞ·ΟƒΟ„ΟΞ½)
+# User-Accounts (Ρυθμίσεις Χρηστών)
 d-i passwd/root-login boolean true
 #d-i passwd/root-password password ostdeveloper
 #d-i passwd/root-password-again password ostdeveloper
 #encrypted root password, uncomment
-d-i passwd/root-password-crypted password $6$UhZRQ2LZ$uDKRSzGM9oyEo2lIHW5QLo8yCeOr08FrVHlrRIs6D8Mjf9HKouymq7/ovg0JoDYdXSodGhL5jv/pi4CWZqmDD1
+d-i passwd/root-password-crypted password $6$0dbH9YnFOi4eD$g6OmsBRLUhJbn/hS9imtF58Vq4di9tE4ooG0DVNYheF0aYZ62nj6.V.aYCkDqsH0.3G9V8rCNzycG4dv/wZ04.
 # Alternatively, to skip creation of a normal user account.
 #d-i passwd/make-user boolean false
 # To create a normal user account.
-d-i passwd/user-fullname string Elementary Student
+d-i passwd/user-fullname string Epal Student
 d-i passwd/username string student
 # Normal user's password, either in clear text
 #d-i passwd/user-password password insecure
 #d-i passwd/user-password-again password insecure
 #encrypted user password,uncomment
-d-i passwd/user-password-crypted password $6$j9uGhFASr$dBUDThQzRiIeZB3EhaobtrZgwYWDvot1OWXq5ZLF5uJogYvc.b7gWWuBWnYfa.d5Z.4aXsFYTNcvVpVM7z3l60		
+d-i passwd/user-password-crypted password $6$5BvLiifR0e$0UyugUOpE6Edn/mZ9B3vkwio4ij7Fq1qc02m8.IdvHWRmpyjSBZZwvJD1KciauR4T/hZptwZN3wY6sk37t.fg1		
 
-# APT-Options, Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ APT
+# APT-Options, Ρυθμίσεις APT
 # You can choose to install non-free and contrib software.
 d-i apt-setup/non-free boolean true
 d-i apt-setup/contrib boolean true
@@ -81,7 +81,7 @@ d-i apt-setup/security-updates boolean true
 #d-i apt-setup/multiarch string i386
 
 
-#Mirror Settings, Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ•ΞΎΟ…Ο€Ξ·ΟΞµΟ„Ξ·Ο„ΟΞ½ Mirror Ξ΄ΞΉΞ±Ξ΄ΞΏΟΞµΟ„ΞΉΞΊΟΞ½ Ξ•ΞΊΞ΄ΟΟƒΞµΟ‰Ξ½ Ξ›ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΞΏΟ Ξ³ΞΉΞ± Ο„ΞΏ ΟƒΟΟƒΟ„Ξ·ΞΌΞ±
+#Mirror Settings, Ρυθμίσεις Εξυπηρετητών Mirror διαδορετικών Εκδόσεων Λογισμικού για το σύστημα
 # If you select ftp, the mirror/country string does not need to be set.
 #d-i mirror/protocol string ftp
 d-i mirror/country string GR
@@ -91,34 +91,40 @@ d-i mirror/suite string jessie
 d-i mirror/http/proxy string
 
 
-#Install-Tasks, Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ•ΟΞ³Ξ±ΟƒΞΉΟΞ½ Ξ•Ξ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ·Ο‚
+#Install-Tasks, Ρυθμίσεις Εργασιών Εγκατάστασης
 tasksel tasksel/first multiselect standard, kde-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath geogebra openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal kig marble kgeography kturtle pysioGame rosegarden step hydrogen stellarium celestia
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla libappindicator1 libcurl3 vlc python-pip subversion ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree gsfonts-x11 task-greek-kde-desktop libqt4-gui alien python-dev python3-dev gparted gnome-terminal scratch inkscape audacity lmms openshot audacious linphone blender epoptes geany
 d-i pkgsel/upgrade select safe-upgrade
 
-#Boot-Installer, Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ Ξ•Ξ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ·Ο‚ Ξ›ΞΏΞ³ΞΉΟƒΞΌΞΉΞΊΞΏΟ Ξ•ΞΊΞΊΞ―Ξ½Ξ·ΟƒΞ·Ο‚ Ξ›ΞµΞΉΟ„ΞΏΟ…ΟΞ³ΞΉΞΊΞΏΟ
+#Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
 d-i grub-installer/only_debian boolean true
 d-i grub-installer/with_other_os boolean true
 d-i finish-install/reboot_in_progress note
 
-#Post-Installation Commands, Ξ΅Ο…ΞΈΞΌΞ―ΟƒΞµΞΉΟ‚ ΟƒΞµΞ½Ξ±ΟΞ―Ο‰Ξ½ Ο€ΟΞΏΟ‚ ΞµΞΊΟ„Ξ­Ξ»ΞµΟƒΞ· ΞΌΞµΟ„Ξ¬ Ο„Ξ·Ξ½ ΞµΞ³ΞΊΞ±Ο„Ξ¬ΟƒΟ„Ξ±ΟƒΞ·
+#Post-Installation Commands, Ρυθμίσεις σεναρίων προς εκτέλεση μετά την εγκατάσταση
 #d-i preseed/late_command string in-target wget -P /tmp/ http://$server/skript.sh; in-target chmod +x /tmp/s
 d-i preseed/late_command string \
-  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~sofiakom/customDistros/ElementaryEdition/essentialfiles1.tar.gz ; \
-  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/google-chrome-stable_current_amd64.deb ; \
+  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~afpapag/CustomDistros/EpalEdition/essentialfiles1.tar.gz ; \
+  wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/google-chrome-stable_current_amd64.deb; \
+  wget -O /target/tmp/Greenfoot-linux-304.deb http://ostdev.minedu.gov.gr/~afpapag/CustomDistros/EpalEdition/Greenfoot-linux-304.deb; \
+   wget -O /target/tmp/geogebra5_5.0.299.0-50617_amd64.deb http://ostdev.minedu.gov.gr/~afpapag/CustomDistros/EpalEdition/geogebra5_5.0.299.0-50617_amd64.deb; \
+   wget -O /target/tmp/dolibarr_4.0.2-4_all.deb http://ostdev.minedu.gov.gr/~afpapag/CustomDistros/EpalEdition/dolibarr_4.0.2-4_all.deb; \
   in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
   in-target mv /tmp/sources.list /etc/apt ; \
   in-target mv /tmp/sudoers /etc ; \
   in-target cp /tmp/RunME.desktop /home/student/RunME.desktop ; \
-
+  in-target cp /tmp/Xmind.desktop /home/student/Xmind.desktop ; \
   in-target cp /tmp/runme.sh /home/student/runme.sh ; \
   in-target chown student:student /home/student/RunME.desktop ; \
-
+  in-target chown student:student /home/student/Xmind.desktop ; \
   in-target chown student:student /home/student/runme.sh ; \
   in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
+  in-target dpkg -i /tmp/Greenfoot-linux-304.deb ; \
+  in-target dpkg -i /tmp/geogebra5_5.0.299.0-50617_amd64.deb ; \
+  in-target dpkg -i /tmp/dolibarr_4.0.2-4_all.deb ; \
   in-target chmod +x /home/student/runme.sh ; \
   in-target chmod +x /home/student/*.desktop ; \
   in-target chmod +x /tmp/postinstall.sh ; \
