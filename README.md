@@ -40,11 +40,13 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:
 
 <A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>
+
 <A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
 
 Επιπλέον, υπάρχουν και virtual machine images των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
 <A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">Διανομή Πρωτοβάθμιας Εκπαίδευσης 64bit</A>
+
 <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Διανομής Πρωτοβάθμιας Εκπαίδευσης 32bit</A>
 
 # Edu-Distributions
