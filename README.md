@@ -4,18 +4,18 @@
 </p>
 <p align="justify">
 <br>
-Tα Edu-Distributions είναι εξειδικευμένες διανομές Linux διαθέσιμες για κάθε βαθμίδα εκπαίδευσης (προσχολική, πρωτοβάθμια, δευτεροβάθμια) οι οποίες περιέχουν όλο το εγκεκριμένο από το ΥΠ.Π.Ε.Θ. λογισμικό, που κατά καιρούς, μέσω των διαφόρων δράσεων έχει δημιουργηθεί, καθώς και άλλο ψηφιακό υλικό (π.χ. ebooks) αλλά και δημοφιλές λογισμικό που βρίσκεται ελεύθερο προς χρήση στο διαδίκτυο. Στις διανομές αυτές διατίθενται επίσης διανομές για την τεχνική δευτεροβάθμια επαγγελματική και για την τεχνική μεταλυκειακή εκπαίδευση.
+Tα Edu-Distributions είναι εξειδικευμένες διανομές Linux διαθέσιμες για κάθε βαθμίδα εκπαίδευσης (προσχολική, πρωτοβάθμια, δευτεροβάθμια, tεχνική δευτεροβάθμια επαγγελματική, τεχνική μεταλυκειακή εκπαίδευση) οι οποίες περιέχουν όλο το εγκεκριμένο από το ΥΠ.Π.Ε.Θ. λογισμικό, που κατά καιρούς, μέσω των διαφόρων δράσεων έχει δημιουργηθεί, καθώς και άλλο ψηφιακό υλικό (π.χ. ebooks) αλλά και δημοφιλές λογισμικό που βρίσκεται ελεύθερο προς χρήση στο διαδίκτυο.
 Επιπλέον διατίθεται και εξειδικευμένη διανομή για προγραμματιστές που παρέχει όλα τα απαραίτητα εργαλεία για ανάπτυξη λογισμικού ανοικτού κώδικα. 
 <br>
 <p align="center">
   <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation2.png"/>
 </p>
 <p align="justify">
-Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstation μεγέθους (3.7GB) έκαστο μπορείτε να τα κατεβάσετε από το wiki (σελ. Πληροφορίες).
-Στην επαύξηση της εφαρμογής θα δημιουργηθούν διανομές και για τις υπόλοιπες βαθμίδες εκπαίδευσης αφού ταξινομηθούν και κατηγοριοποιηθούν τα διαθέσιμα εκπαιδευτικά λογισμικά ανοικτού κώδικα ανα βαθμίδα ώστε να ενσωματωθούν στην κατάλληλη διανομή. 
+Περισσότερες πληροφορίες για τις διανομές που έχουν αναπτυχθεί ως σήμερα θα βρείτε στο Wiki του έργου.
+Σε κάθε επαύξηση της εφαρμογής θα δημιουργούνται διανομές και για τις υπόλοιπες βαθμίδες εκπαίδευσης αφού ταξινομηθούν και κατηγοριοποιηθούν τα διαθέσιμα εκπαιδευτικά λογισμικά ανοικτού κώδικα ανα βαθμίδα ώστε να ενσωματωθούν στην κατάλληλη διανομή. 
 
 <p align="justify">
-Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSEducation για την πρωτοβάθμια εκπαίδευση και την προσχολική αγωγή η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία και νηπιαγωγεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα της πρωτοβάθμιας και προσχολικής εκπαίδευσης. Μια δοκιμαστική έκδοση της διανομής (beta version) είναι διαθέσιμη στο wiki (σελ. Πληροφορίες) και θα εμπλουτίζεται συνεχώς με νέο λογισμικό και λειτουργίες. 
+Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSDeveloper για προγραμματιστές λογισμικού ανοιχτού κώδικα καθώς και η διανομή OSEducation για πρωτοβάθμια εκπαίδευση, τεχνική επαγγελματική εκπαίδευση και προσχολική αγωγή η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία, επαγγελματικά λύκεια και νηπιαγωγεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα. Μια δοκιμαστική έκδοση της διανομής (beta version) είναι διαθέσιμη και θα εμπλουτίζεται συνεχώς με νέο λογισμικό και λειτουργίες. 
 </p>
 </p>
 <br>
@@ -39,9 +39,7 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:
 
-<A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>
-
-<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
+<A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
 
 Επιπλέον, υπάρχουν και virtual machine images των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
@@ -63,5 +61,19 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 </p>
 <p align="justify">
 
-Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/g7Rzx25Wy5MI6b5Xumo0u3">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
+Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
 The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
+There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
+There are also available virtual machine images for each distribution through the following links:
+<A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">Elementary Distribution 64bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Elementary Distribution 32bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">Preschool Distribution 64bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">Preschool Distribution 32bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">Technical Education Distribution 64bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">Technical Education Dustribution 32bit</A>
+
