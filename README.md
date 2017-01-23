@@ -37,9 +37,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:
-
-<A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
 
 Επιπλέον, υπάρχουν και virtual machine images των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
@@ -65,6 +63,7 @@ Edu Open Source Developer Workstation is a distribution for the open source soft
 The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
 There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
 There are also available virtual machine images for each distribution through the following links:
+
 <A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">Elementary Distribution 64bit</A>
 
 <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Elementary Distribution 32bit</A>
