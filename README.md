@@ -29,9 +29,9 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για προγραμματιστές ανοικτού λογισμικού.
 
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/g7Rzx25Wy5MI6b5Xumo0u3">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
 
-Επιπλέον, υπάρχει και virtual machine image της 64 bit διανομής διαθέσιμο εδώ:<A href="https://pithos.okeanos.grnet.gr/public/7J3Uu9eVhNu1FOQgykHFg5">64bit</A>
+Επιπλέον, υπάρχει και virtual machine image της 64 bit διανομής διαθέσιμο εδώ:<A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>
 
 β. Όνομα Εφαρμογής: Open Source Education Workstation
 
