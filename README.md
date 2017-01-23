@@ -49,6 +49,10 @@ Tα .iso (32bit, 64bit) της διανομής Open Source Developer Workstatio
 
 <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Διανομής Πρωτοβάθμιας Εκπαίδευσης 32bit</A>
 
+<A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">Διανομή Προσχολικής Εκπαίδευσης Εκπαίδευσης 64bit</A>
+
+<A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">Διανομής Προσχολικής Εκπαίδευσης Εκπαίδευσης 32bit</A>
+
 # Edu-Distributions
 <p align="center">
   <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation1.png"/>
