@@ -96,7 +96,7 @@ tasksel tasksel/first multiselect standard, kde-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop audacity openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal chromium marble vlc scribus musescore inkscape librecad step geogebra stellarium geany lmms icedove ardour cantor kalgebra maxima octave hydrogen gnusim8085 kig kalzium kgeography kwordquiz partimage
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop audacity openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal chromium marble vlc scribus musescore inkscape librecad step geogebra stellarium geany lmms icedove ardour cantor kalgebra maxima octave hydrogen gnusim8085 kig kalzium kgeography kwordquiz partimage blender
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
