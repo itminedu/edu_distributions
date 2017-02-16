@@ -43,7 +43,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 * Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
 
-* Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">32bit</A>
+* Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/33QIUth4pD0ei41gqtsFp5">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/1iMoBDycSfHDKc9796hjM">32bit</A>
 
 * Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">32bit</A>
 
@@ -61,7 +61,7 @@ There are also available virtual machine images for each distribution through th
 
 * Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
 
-* Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">32bit</A>
+* Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/33QIUth4pD0ei41gqtsFp5">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/1iMoBDycSfHDKc9796hjM">32bit</A>
 
 * Technical Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">32bit</A>
 
