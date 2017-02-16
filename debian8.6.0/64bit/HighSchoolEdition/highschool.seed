@@ -12,7 +12,7 @@ d-i console-setup/layoutcode string gr_GR
 
 #Ρυθμίσεις Δικτύου
 d-i netcfg/get_domain string unassigned-domain
-d-i netcfg/get_hostname string ElementaryWorkstation
+d-i netcfg/get_hostname string HighSchoolWorkstation
 d-i netcfg/choose_interface select auto
 #d-i netcfg/wireless_wep string
 
