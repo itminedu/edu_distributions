@@ -41,17 +41,12 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
-<A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">Διανομή Πρωτοβάθμιας Εκπαίδευσης 64bit</A>
+* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Διανομή Πρωτοβάθμιας Εκπαίδευσης 32bit</A>
+* Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">Διανομή Προσχολικής Εκπαίδευσης Εκπαίδευσης 32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">Διανομή Προσχολικής Εκπαίδευσης Εκπαίδευσης 64bit</A>
+* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">Διανομή Προσχολικής Εκπαίδευσης Εκπαίδευσης 32bit</A>
-
-<A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">Διανομή Επαγγελματικής Εκπαίδευσης Εκπαίδευσης 64bit</A>
-
-<A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">Διανομή Επαγγελματικής Εκπαίδευσης Εκπαίδευσης 32bit</A>
 
 # Edu-Distributions
 <p align="center">
