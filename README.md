@@ -59,15 +59,10 @@ The application increment will include seperate linux distributions for every di
 There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
 There are also available virtual machine images for each distribution through the following links:
 
-<A href="https://pithos.okeanos.grnet.gr/public/rwuuY9Z4tNookcHPlJ4I34">Elementary Distribution 64bit</A>
+Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">Elementary Distribution 32bit</A>
+Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/MT8kUBjY4kBKmbatA0CQr">Preschool Distribution 64bit</A>
+Technical Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">32bit</A>
 
-<A href="https://pithos.okeanos.grnet.gr/public/1PQLcuhXK4LQ3gCY77XG8">Preschool Distribution 32bit</A>
-
-<A href="https://pithos.okeanos.grnet.gr/public/4pt3h3dK4VbqerkpVOE6d7">Technical Education Distribution 64bit</A>
-
-<A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">Technical Education Dustribution 32bit</A>
 
