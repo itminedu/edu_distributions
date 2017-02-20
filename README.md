@@ -65,6 +65,6 @@ There are also available virtual machine images for each distribution through th
 
 * Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/33QIUth4pD0ei41gqtsFp5">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/1iMoBDycSfHDKc9796hjM">32bit</A>
 
-* Technical Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/14Kjzn8gmhyKPbU1xJjSJ">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/yC2EVnkoRBGBmijbCqF6r5">32bit</A>
+* Technical Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/BTpX31SjZewzeDdOT4lI95">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/vwFl6HlsE6fHriOoXq3104">32bit</A>
 
 
