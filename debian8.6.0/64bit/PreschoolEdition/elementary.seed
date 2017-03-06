@@ -96,7 +96,7 @@ tasksel tasksel/first multiselect standard, kde-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath geogebra openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal kig marble kgeography kturtle pysioGame rosegarden step
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils apache2 filezilla libappindicator1 libcurl3 vlc python-pip ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien python-dev python3-dev gparted gsfonts-x11 task-greek-kde-desktop scratch gcompris tuxguitar extremetuxracer tuxpuck tuxtype tuxpaint-config tuxpaint-stamps-default tuxfootball audacity tuxmath geogebra openshot lame libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common gnome-terminal kig marble kgeography kturtle pysioGame rosegarden step hydrogen stellarium celestia
 d-i pkgsel/upgrade select safe-upgrade
 
 #Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
@@ -113,10 +113,10 @@ d-i preseed/late_command string \
   in-target mv /tmp/sources.list /etc/apt ; \
   in-target mv /tmp/sudoers /etc ; \
   in-target cp /tmp/RunME.desktop /home/student/RunME.desktop ; \
-  in-target cp /tmp/Xmind.desktop /home/student/Xmind.desktop ; \
+
   in-target cp /tmp/runme.sh /home/student/runme.sh ; \
   in-target chown student:student /home/student/RunME.desktop ; \
-  in-target chown student:student /home/student/Xmind.desktop ; \
+
   in-target chown student:student /home/student/runme.sh ; \
   in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
   in-target chmod +x /home/student/runme.sh ; \
