@@ -50,6 +50,8 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Λύκειο) <A href="https://pithos.okeanos.grnet.gr/public/dr8jVl8t0xOlEsRP6e5NL">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YKnycsg6eaX9NqASaPBvZ4">32bit</A>
 
+* Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="#">64bit</A> <A href="#">32bit</A>
+
 
 # Edu-Distributions
 <p align="center">
