@@ -36,11 +36,11 @@ d-i clock-setup/ntp boolean true
 d-i clock-setup/ntp-server string ntp.ntua.gr
 
 # User-Accounts (Ρυθμίσεις Χρηστών)
-d-i passwd/root-login boolean false
+d-i passwd/root-login boolean true
 #d-i passwd/root-password password ostdeveloper
 #d-i passwd/root-password-again password ostdeveloper
 #encrypted root password, uncomment
-d-i passwd/root-password-crypted password $6$mUqOG7Q2$4TGBh9l/WLqRvWxeiEKICw5r6PstBHVvw0N7X4.7aqes5nAOAN6MUzOqq8kQp8RskIq/v8u8TlXqNlwQxqEXp/
+d-i passwd/root-password-crypted password $6$MWKPFtrg1$7vTLYr1s7fYVEHJcloe2qzWFKZ.4wjN8c6LovLw6DJD6/Z66/WJazixUpb4FrIKJxSTJa9mFCU8g9SXxJG2w81
 # Alternatively, to skip creation of a normal user account.
 #d-i passwd/make-user boolean false
 # To create a normal user account.
@@ -97,7 +97,7 @@ tasksel tasksel/first multiselect standard, kde-desktop
 #tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
 d-i pkgsel/install-language-support boolean true
 d-i pkgsel/language-pack-patterns string el_GR
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla libappindicator1 libcurl3 chromium vlc python-pip subversion wine ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree wine32 q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien task-greek-kde-desktop gnome-terminal libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common chromium python-dev python3-dev gparted gsfonts-x11 scratch inkscape audacity lmms openshot geogebra audacious blender geany mixxx linphone dia librecad
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla libappindicator1 libcurl3 chromium vlc python-pip subversion wine ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree wine32 q4wine python-tk software-properties-common flashplugin-nonfree libqt4-gui alien task-greek-kde-desktop gnome-terminal libjavascriptcoregtk-1.0-0 libwebkitgtk-1.0-0 libwebkitgtk-1.0-common chromium python-dev python3-dev gparted gsfonts-x11 scratch inkscape audacity lmms openshot geogebra audacious blender geany mixxx linphone dia librecad kicad freecad k3b
 
 d-i pkgsel/upgrade select safe-upgrade
 
