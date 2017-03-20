@@ -66,10 +66,10 @@ There are also available virtual machine images for each distribution through th
 
 * Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
 
-* Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/33QIUth4pD0ei41gqtsFp5">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/1iMoBDycSfHDKc9796hjM">32bit</A>
+* Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/b23a9aYuAjmrdn8ydrZek3">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/96oVUaX4qjIreokr5AtYr4">32bit</A>
 
 * Technical Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/BTpX31SjZewzeDdOT4lI95">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/vwFl6HlsE6fHriOoXq3104">32bit</A>
 
-* JunioeHighSchool Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
+* JuniorHighSchool Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
 
