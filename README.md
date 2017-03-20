@@ -42,7 +42,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
-* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
+* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/6NXocDtK7Jsp1lHLBJRBZ2">32bit</A>
 
 * Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/33QIUth4pD0ei41gqtsFp5">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/1iMoBDycSfHDKc9796hjM">32bit</A>
 
