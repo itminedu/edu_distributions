@@ -53,7 +53,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
 
-# Edu-Distributions
+# Edu Open Source Developer Workstation is a distribution for the open source software developer
 <p align="center">
   <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation1.png"/>
 </p>
