@@ -1,4 +1,4 @@
-# Edu-Distributions
+# Διανομές για όλες τις βαθμίδες εκπαίδευσης(Edu-Distributions)
 <p align="center">
   <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation1.png"/>
 </p>
