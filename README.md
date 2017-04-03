@@ -61,9 +61,11 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 </p>
 <p align="justify">
 
-Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/q696D79OCOe596xRi9kGl6">64bit</A>
+Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. 
+The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
 The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
-There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/QMVJ9zUtcw8aSlxtiQ0Jt6">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/pUmS2lvX0JbxQ5sMDyJq13">32bit</A>
+There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. 
+The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
 There are also available virtual machine images for each distribution through the following links:
 
 * Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
