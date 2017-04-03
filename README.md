@@ -52,7 +52,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
-* Διανομή Μεταλυκειακής Εκπαίδεσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
+* Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
 
 
 # Open Source Developer Workstation distribution
