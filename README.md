@@ -68,7 +68,7 @@ There have been implemented three linux distributions for schools (preschool, el
 The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
 There are also available virtual machine images for each distribution through the following links:
 
-* Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/sAXS8PK53EjCCdAq9nuIK">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/Fl9fkZpx4XPyYSE686puU2">32bit</A>
+* Elementary Distribution <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/6NXocDtK7Jsp1lHLBJRBZ2">32bit</A>
 
 * Preschool Distribution <A href="https://pithos.okeanos.grnet.gr/public/b23a9aYuAjmrdn8ydrZek3">64bit</A><A href="https://pithos.okeanos.grnet.gr/public/96oVUaX4qjIreokr5AtYr4">32bit</A>
 
