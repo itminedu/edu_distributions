@@ -52,6 +52,8 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
+* Διανομή Μεταλυκειακής Εκπαίδεσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
+
 
 # Open Source Developer Workstation distribution
 <p align="center">
@@ -73,3 +75,5 @@ There are also available virtual machine images for each distribution through th
 * JuniorHighSchool Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
 * High School Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/dr8jVl8t0xOlEsRP6e5NL">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YKnycsg6eaX9NqASaPBvZ4">32bit</A>
+
+* PostSecondary (IEK) Education Distribution <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
