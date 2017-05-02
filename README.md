@@ -34,6 +34,8 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 Επιπλέον, υπάρχει και virtual machine image της 64 bit διανομής διαθέσιμο εδώ:<A href="https://pithos.okeanos.grnet.gr/public/7J3Uu9eVhNu1FOQgykHFg5">64bit</A>
 
+
+
 **β. Όνομα Εφαρμογής: Open Source Education Workstation**
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
@@ -42,15 +44,16 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
-* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/6NXocDtK7Jsp1lHLBJRBZ2">32bit</A>
 
 * Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/b23a9aYuAjmrdn8ydrZek3">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/96oVUaX4qjIreokr5AtYr4">32bit</A>
 
-* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/BTpX31SjZewzeDdOT4lI95">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/vwFl6HlsE6fHriOoXq3104">32bit</A>
+* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/6NXocDtK7Jsp1lHLBJRBZ2">32bit</A>
+
+* Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Λύκειο) <A href="https://pithos.okeanos.grnet.gr/public/dr8jVl8t0xOlEsRP6e5NL">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YKnycsg6eaX9NqASaPBvZ4">32bit</A>
 
-* Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/1AFKHUmGa5nxS3mzvph0Z4">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/BVnKPPJOayqAB6r2RNDd3">32bit</A>
+* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/BTpX31SjZewzeDdOT4lI95">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/vwFl6HlsE6fHriOoXq3104">32bit</A>
 
 * Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
 
