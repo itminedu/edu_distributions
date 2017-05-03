@@ -1,11 +1,8 @@
 # Διανομές για όλες τις βαθμίδες εκπαίδευσης(Edu-Distributions)
-<p align="center">
-  <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation1.png"/>
-</p>
+
 <p align="justify">
 <br>
 Tα Edu-Distributions είναι εξειδικευμένες διανομές Linux διαθέσιμες για κάθε βαθμίδα εκπαίδευσης (προσχολική, πρωτοβάθμια, δευτεροβάθμια, tεχνική δευτεροβάθμια επαγγελματική, τεχνική μεταλυκειακή εκπαίδευση) οι οποίες περιέχουν όλο το εγκεκριμένο από το ΥΠ.Π.Ε.Θ. λογισμικό, που κατά καιρούς, μέσω των διαφόρων δράσεων έχει δημιουργηθεί, καθώς και άλλο ψηφιακό υλικό (π.χ. ebooks) αλλά και δημοφιλές λογισμικό που βρίσκεται ελεύθερο προς χρήση στο διαδίκτυο.
-Επιπλέον διατίθεται και εξειδικευμένη διανομή για προγραμματιστές που παρέχει όλα τα απαραίτητα εργαλεία για ανάπτυξη λογισμικού ανοικτού κώδικα. 
 <br>
 <p align="center">
   <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation2.png"/>
@@ -15,9 +12,11 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 Σε κάθε επαύξηση της εφαρμογής θα δημιουργούνται διανομές και για τις υπόλοιπες βαθμίδες εκπαίδευσης αφού ταξινομηθούν και κατηγοριοποιηθούν τα διαθέσιμα εκπαιδευτικά λογισμικά ανοικτού κώδικα ανα βαθμίδα ώστε να ενσωματωθούν στην κατάλληλη διανομή. 
 
 <p align="justify">
-Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSDeveloper για προγραμματιστές λογισμικού ανοιχτού κώδικα καθώς και η διανομή OSEducation για πρωτοβάθμια, δευτεροβάθμια, τεχνική επαγγελματική εκπαίδευση και προσχολική αγωγή η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία, γυμνάσια, λύκεια, επαγγελματικά λύκεια και νηπιαγωγεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα. Μια δοκιμαστική έκδοση της διανομής (beta version) είναι διαθέσιμη και θα εμπλουτίζεται συνεχώς με νέο λογισμικό και λειτουργίες. 
+Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSEducation (σε Debian Linux) για πρωτοβάθμια, δευτεροβάθμια, τεχνική επαγγελματική εκπαίδευση και προσχολική αγωγή η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία, γυμνάσια, λύκεια, επαγγελματικά λύκεια και νηπιαγωγεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα. 
+Μια δοκιμαστική έκδοση της διανομής (beta version) είναι διαθέσιμη και θα εμπλουτίζεται συνεχώς με νέο λογισμικό και λειτουργίες. 
+Παράλληλα, αναπτύσσεται και έκδοση της διανομής OSEducation σε Ubuntu.
 </p>
-<p>Παράλληλα, θα δημιουργηθεί και μια διανομή με εξειδικευμένο λογισμικό για την Ειδική Αγωγή καθώς και μια διανομή για υπαλλήλους της κεντρικής υπηρεσίας και φορέων του ΥΠΕΘ. </p>
+<p>Επιπλέον, θα δημιουργηθεί και μια διανομή με εξειδικευμένο λογισμικό για την Ειδική Αγωγή. </p>
 </p>
 <br>
 <p align="center">
@@ -25,18 +24,11 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 </p>
 
 
+
+
 # Παραδοτέα
-**α. Όνομα Εφαρμογής: Open Source Developer Workstation**
 
-Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά και υλικό για προγραμματιστές ανοικτού λογισμικού.
-
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
-
-Επιπλέον, υπάρχει και virtual machine image της 64 bit διανομής διαθέσιμο εδώ:<A href="https://pithos.okeanos.grnet.gr/public/7J3Uu9eVhNu1FOQgykHFg5">64bit</A>
-
-
-
-**β. Όνομα Εφαρμογής: Open Source Education Workstation**
+**Όνομα Εφαρμογής: Open Source Education Workstation**
 
 Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
@@ -58,15 +50,15 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 * Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
 
 
-# Open Source Developer Workstation distribution
-<p align="center">
-  <img src="http://ostdev.minedu.gov.gr/~pgeorg/assets/pictures/OSDeveloperWorkstation1.png"/>
-</p>
+# Open Source  Workstation distribution
+
 <p align="justify">
 
 Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. 
 The .iso distribution due to size (3.7GB) can be downloaded from this links: <A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
-The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
+
+he application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
+
 There have been implemented three linux distributions for schools (preschool, elementary and technical education) so far. 
 The .iso distribution is available for download here: <A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
 There are also available virtual machine images for each distribution through the following links:
