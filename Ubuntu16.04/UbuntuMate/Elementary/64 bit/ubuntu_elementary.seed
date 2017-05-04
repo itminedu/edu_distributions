@@ -385,7 +385,7 @@ d-i pkgsel/include string openssh-client openssh-server build-essential vim less
   
 # Whether to upgrade packages after debootstrap.
 # Allowed values: none, safe-upgrade, full-upgrade
-d-i pkgsel/upgrade select safe-upgrade
+d-i pkgsel/upgrade select full-upgrade
 
 # Language pack selection
 #d-i pkgsel/language-packs multiselect en, gr
