@@ -28,7 +28,7 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 **Όνομα Εφαρμογής: Open Source Education Workstation**
 
-Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
+a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
 Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
 
@@ -46,6 +46,13 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 * Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/BTpX31SjZewzeDdOT4lI95">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/vwFl6HlsE6fHriOoXq3104">32bit</A>
 
 * Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="https://pithos.okeanos.grnet.gr/public/V09A4ku06DygEhTr9q6aL2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/YhB0i1LNFBoCsXWqyaM2b1">32bit</A>
+
+
+b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
+
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/KyPd30AhP8lH4U69zQPnw">64bit</A>
+
+
 
 
 # Open Source  Workstation distribution
