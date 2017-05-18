@@ -30,7 +30,9 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 
 a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/V7Nyum3zK15sRdAuhZXqi1">64bit</A>,<A href="https://pithos.okeanos.grnet.gr/public/Hmcjo1rWYSS3YtG12mbps7">32bit</A>
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:
+<A href="https://pithos.okeanos.grnet.gr/public/bbuj28phl2doEBdclnznw">64bit</A>,
+<A href="https://pithos.okeanos.grnet.gr/public/ZTx5QUQdmXTG56SuNpYQK5">32bit</A>
 
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
