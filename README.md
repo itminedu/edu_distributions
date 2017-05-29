@@ -38,7 +38,7 @@ a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη μ
 <A href="https://pithos.okeanos.grnet.gr/public/8Wr5zLcqY4ixkPKgGtA175">64bit</A>,
 <A href="https://pithos.okeanos.grnet.gr/public/eABhTjjfP5VHhTVWiT9nq">32bit</A>
 
-Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των διανομών για την εκπαίδευση διαθέσιμα εδώ:
+Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των debian διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
 
 * Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/b23a9aYuAjmrdn8ydrZek3">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/96oVUaX4qjIreokr5AtYr4">32bit</A>
@@ -57,6 +57,21 @@ a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη μ
 b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
 Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/KyPd30AhP8lH4U69zQPnw">64bit</A>
+
+Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των ubuntu διανομών για την εκπαίδευση διαθέσιμα εδώ:
+
+
+* Διανομή Προσχολικής Εκπαίδευσης <A href="#">64bit</A> <A href="#">32bit</A>
+
+* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="#">64bit</A> <A href="#">32bit</A>
+
+* Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="#">64bit</A> <A href="#">32bit</A>
+
+* Διανομή Δευτεροβάθμιας Εκπαίδευσης (Λύκειο) <A href="#">64bit</A> <A href="#">32bit</A>
+
+* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="#">64bit</A> <A href="#">32bit</A>
+
+* Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="#">64bit</A> <A href="#">32bit</A>
 
 
 
