@@ -18,10 +18,10 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 </p>
 <br>
 <p align="center">
-  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary32.jpeg" width=500 height=500/> 
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary32.jpeg" width=800 height=600/> 
   
   <br>
-  <img src="http://ostdev.minedu.gov.gr/~sofiakom/Ubuntu_Elementary64.jpeg" width=500 height=500/>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/Ubuntu_Elementary64.jpeg" width=800 height=600/>
 
 </p>
 
