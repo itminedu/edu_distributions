@@ -12,13 +12,16 @@ Tα Edu-Distributions είναι εξειδικευμένες διανομές L
 <p align="justify">
 Μέχρι σήμερα έχει δημιουργηθεί η διανομή OSEducation (σε Debian Linux) για πρωτοβάθμια, δευτεροβάθμια, τεχνική επαγγελματική εκπαίδευση και προσχολική αγωγή η οποία περιέχει ενσωματωμένα λογισμικά ανοιχτού κώδικα για δημοτικά σχολεία, γυμνάσια, λύκεια, επαγγελματικά λύκεια και νηπιαγωγεία. Η διανομή θα εμπλουτιστεί μελλοντικά και με επιπλέον λογισμικά κατάλληλα για όλα τα επίπεδα και όλα τα γνωστικά αντικείμενα. 
 Μια δοκιμαστική έκδοση της διανομής (beta version) είναι διαθέσιμη και θα εμπλουτίζεται συνεχώς με νέο λογισμικό και λειτουργίες. 
-Παράλληλα, αναπτύσσεται και έκδοση της διανομής OSEducation σε Ubuntu.
+Παράλληλα, έχει αναπτυχθεί και έκδοση της διανομής OSEducation σε Ubuntu Mate. 
 </p>
 <p>Επιπλέον, θα δημιουργηθεί και μια διανομή με εξειδικευμένο λογισμικό για την Ειδική Αγωγή. </p>
 </p>
 <br>
 <p align="center">
-  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary64-desktop.png" width=300 height=300/>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSElementary32.jpeg" width=300 height=300/><br>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/Ubuntu_Elementary64.jpeg" width=300 height=300/><br>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/OSHighSchool64.jpeg" width=300 height=300/><br>
+  <img src="http://ostdev.minedu.gov.gr/~sofiakom/Ubuntu_HighSchool32.jpeg" width=300 height=300/>
 </p>
 
 
