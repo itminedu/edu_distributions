@@ -381,7 +381,7 @@ tasksel tasksel/first multiselect ubuntu-desktop
 #d-i pkgsel/install-language-support boolean true
 #d-i pkgsel/language-pack-patterns string el_GR
 # Individual additional packages to install
-d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils xorg ubuntu-mate-desktop apache2 filezilla ubuntu-software python-pip sshfs q4wine flashplugin-installer alien python3-dev gparted gsfonts-x11 audacity openshot lame gnome-terminal marble scribus musescore inkscape librecad step geogebra stellarium geany lmms ardour cantor kalgebra maxima octave hydrogen gnusim8085 kig kalzium kgeography kwordquiz partimage blender k3b libxss1 libgconf2-4 libappindicator1 libindicator7 python-software-properties nano epoptes
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk rsync curl xterm x11-utils xorg ubuntu-mate-desktop apache2 filezilla ubuntu-software python-pip sshfs q4wine flashplugin-installer alien python3-dev gparted gsfonts-x11 audacity gimp openshot lame gnome-terminal marble scribus musescore inkscape librecad step geogebra stellarium geany lmms ardour cantor kalgebra maxima octave hydrogen gnusim8085 kig kalzium kgeography kwordquiz partimage blender k3b libxss1 libgconf2-4 libappindicator1 libindicator7 python-software-properties nano epoptes
 
   
 # Whether to upgrade packages after debootstrap.
