@@ -41,7 +41,7 @@ a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη μ
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των debian διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
 
-* Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/b23a9aYuAjmrdn8ydrZek3">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/96oVUaX4qjIreokr5AtYr4">32bit</A>
+* Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/OfWCDAQu5OJfEM8JF12Lo7">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/IbY7pqsxGaaRKBMuxKYGx2">32bit</A>
 
 * Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/7lZZ7UgdIBTqKAKssklNV6">32bit</A>
 
