@@ -61,7 +61,7 @@ b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη μ�
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των ubuntu διανομών για την εκπαίδευση διαθέσιμα εδώ:
 
 
-* Διανομή Προσχολικής Εκπαίδευσης <A href="#">64bit</A> <A href="#">32bit</A>
+* Διανομή Προσχολικής Εκπαίδευσης <A href="#">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/fCcE9WBS5l4FfleDJvX093">32bit</A>
 
 * Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="#">64bit</A> <A href="#">32bit</A>
 
