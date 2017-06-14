@@ -56,7 +56,7 @@ a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη μ
 
 b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη με λογισμικά ανοικτού κώδικα κατάλληλα για την εκπαίδευση
 
-Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/ibDJqbqGjBgy8HCmMP1V86">64bit</A>
+Διανομή: Τα .iso της διανομής που έχουμε δημιουργήσει είναι διαθέσιμα εδώ:<A href="https://pithos.okeanos.grnet.gr/public/sP9KGi6n35YglsZ44osZq6">64bit</A>
 <A href="https://pithos.okeanos.grnet.gr/public/ibDJqbqGjBgy8HCmMP1V86">32bit</A>
 
 Επιπλέον, υπάρχουν και εικόνες εικονικής μηχανής για πλατφόρμα Virtualbox (virtual machine images) των ubuntu διανομών για την εκπαίδευση διαθέσιμα εδώ:
