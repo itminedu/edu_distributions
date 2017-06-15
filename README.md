@@ -43,7 +43,7 @@ a. Περιγραφή: Διανομή Debian Linux εμπλουτισμένη μ
 
 * Διανομή Προσχολικής Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/OfWCDAQu5OJfEM8JF12Lo7">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/IbY7pqsxGaaRKBMuxKYGx2">32bit</A>
 
-* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/5lUvDwTJCDcWjsKUFQcsI2">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/7lZZ7UgdIBTqKAKssklNV6">32bit</A>
+* Διανομή Πρωτοβάθμιας Εκπαίδευσης <A href="https://pithos.okeanos.grnet.gr/public/8ViiY9FzNSf9ri41VRP2H1">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/7lZZ7UgdIBTqKAKssklNV6">32bit</A>
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Γυμνάσιο) <A href="https://pithos.okeanos.grnet.gr/public/9MkDshalKSusqPJ2Y8bdB5">64bit</A> <A href="https://pithos.okeanos.grnet.gr/public/LjlsAqVXVGomhnN24eKYy4">32bit</A>
 
