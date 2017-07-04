@@ -70,7 +70,7 @@ b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη μ�
 
 * Διανομή Δευτεροβάθμιας Εκπαίδευσης (Λύκειο) <A href="#">64bit</A> <A href="#">32bit</A>
 
-* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="#">64bit</A> <A href="#">32bit</A>
+* Διανομή Επαγγελματικής Εκπαίδευσης  <A href="https://pithos.okeanos.grnet.gr/public/S4CLK7RjvHLIt2WQ4W58k7">64bit</A> <A href="#">32bit</A>
 
 * Διανομή Μεταλυκειακής Εκπαίδευσης (ΙΕΚ) <A href="#">64bit</A> <A href="#">32bit</A>
 
