@@ -77,16 +77,13 @@ b. Περιγραφή: Διανομή Ubuntu Mate εμπλουτισμένη μ�
 
 
 
-# Open Source  Workstation distribution
+# Open Source Education Workstation distribution (Edu-Distribution) 
 
 <p align="justify">
 
-Edu Open Source Developer Workstation is a distribution for the open source software developer, which contains necessary software and tools for the development of the open source projects of the Greek Ministry of Education, Research and Religious Affairs. 
-
-The application increment will include seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
+Open Source Education Workstation is a distribution for schools, which includes seperate linux distributions for every different school grade after the categorization of the available open source educational software material for each grade.  
 
 There have been implemented linux distributions for schools (preschool, elementary, junior high school, high school, technical education) and post secondary education so far. 
-
 
 a. Description: Debian Linux Distribution enriched with open source educational software material for each grade.
 
