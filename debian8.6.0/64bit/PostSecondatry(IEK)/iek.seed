@@ -1,0 +1,129 @@
+#Αδεια χρήσης GPL3
+#Ρυθμίσεις Γραμμής Εντολών
+d-i debian-installer/locale string el_GR.UTF-8
+d-i debian-installer/keymap select en
+d-i console-keymaps-at/keymap select en
+d-i localechooser/supported-locales multiselect el_GR, en_US
+d-i languagechooser/language-name-fb select Greek
+#d-i console-setup/ask_detect boolean false
+d-i countrychooser/country-name select Greece
+d-i console-setup/layoutcode string gr_GR
+
+
+#Ρυθμίσεις Δικτύου
+d-i netcfg/get_domain string unassigned-domain
+d-i netcfg/get_hostname string PostSecondaryWorkstation
+d-i netcfg/choose_interface select auto
+#d-i netcfg/wireless_wep string
+
+#d-i base-installer/kernel/override-image string linux-desktop
+#d-i clock-setup/utc-auto boolean true
+
+
+#Partitioning-Options, Partition-Editor (Ρυθμίσεις Διαμερισμάτων Δίσκου)
+d-i partman-auto/method string regular
+d-i partman-auto/purge_lvm_from_device boolean true
+d-i partman-lvm/confirm boolean true
+d-i partman-auto/choose_recipe select atomic
+d-i partman/confirm_write_new_label boolean true
+d-i partman/choose_partition select finish
+d-i partman/confirm boolean true
+
+d-i clock-setup/utc boolean true
+d-i time/zone string Europe/Athens
+d-i clock-setup/ntp boolean true
+d-i clock-setup/ntp-server string ntp.ntua.gr
+
+# User-Accounts (Ρυθμίσεις Χρηστών)
+d-i passwd/root-login boolean true
+#d-i passwd/root-password password ostdeveloper
+#d-i passwd/root-password-again password ostdeveloper
+#encrypted root password, uncomment
+d-i passwd/root-password-crypted password $6$0dbH9YnFOi4eD$g6OmsBRLUhJbn/hS9imtF58Vq4di9tE4ooG0DVNYheF0aYZ62nj6.V.aYCkDqsH0.3G9V8rCNzycG4dv/wZ04.
+# Alternatively, to skip creation of a normal user account.
+#d-i passwd/make-user boolean false
+# To create a normal user account.
+d-i passwd/user-fullname string IEK Student
+d-i passwd/username string student
+# Normal user's password, either in clear text
+#d-i passwd/user-password password insecure
+#d-i passwd/user-password-again password insecure
+#encrypted user password,uncomment
+d-i passwd/user-password-crypted password $6$HrfTDJGfLYZgui$T.aUm4LMrPvVQCFzexd3nsm43WBW6cKGX4k5JjZP6j1/kcGU14/F5aOwS1Jq0E0/i4lAlP38dDadMysOcT1vG0		
+
+# APT-Options, Ρυθμίσεις APT
+# You can choose to install non-free and contrib software.
+d-i apt-setup/non-free boolean true
+d-i apt-setup/contrib boolean true
+d-i apt-setup/backports boolean true
+d-i apt-setup/multiverse boolean true
+d-i apt-setup/proposed  boolean true
+d-i apt-setup/universe  boolean true
+# Enable deb-src lines
+d-i apt-setup/universe/source boolean true
+# Uncomment this if you don't want to use a network mirror.
+d-i apt-setup/use_mirror boolean true
+# Select which update services to use; define the mirrors to be used.
+# Values shown below are the normal defaults.
+d-i apt-setup/services-select multiselect security, updates
+d-i apt-setup/security_host string security.debian.org
+d-i apt-setup/security-updates boolean true
+ 
+#d-i apt-setup/local0/source boolean false
+#d-i apt-setup/local1/source boolean false
+#d-i apt-setup/local2/source boolean false
+
+# By default the installer requires that repositories be authenticated
+# using a known gpg key. This setting can be used to disable that
+# authentication. Warning: Insecure, not recommended.
+#d-i debian-installer/allow_unauthenticated boolean true
+# Uncomment this to add multiarch configuration for i386
+#d-i apt-setup/multiarch string i386
+
+
+#Mirror Settings, Ρυθμίσεις Εξυπηρετητών Mirror διαδορετικών Εκδόσεων Λογισμικού για το σύστημα
+# If you select ftp, the mirror/country string does not need to be set.
+#d-i mirror/protocol string ftp
+d-i mirror/country string GR
+d-i mirror/http/hostname string ftp.gr.debian.org
+d-i mirror/http/directory string /debian
+d-i mirror/suite string jessie
+d-i mirror/http/proxy string
+
+
+#Install-Tasks, Ρυθμίσεις Εργασιών Εγκατάστασης
+tasksel tasksel/first multiselect standard, kde-desktop
+#tasksel tasksel/first multiselect standard, desktop,gnome-desktop, laptop, ubuntu-desktop
+d-i pkgsel/install-language-support boolean true
+d-i pkgsel/language-pack-patterns string el_GR
+d-i pkgsel/include string openssh-client openssh-server build-essential vim less default-jdk putty isomaster git rsync curl xterm x11-utils apache2 mysql-server mysql-client virtualbox php5 filezilla libappindicator1 libcurl3 vlc python-pip subversion ninja-ide sshfs syslinux syslinux-utils firmware-linux-nonfree q4wine python-tk software-properties-common flashplugin-nonfree gsfonts-x11 task-greek-kde-desktop libqt4-gui alien python-dev python3-dev gparted samba gnome-terminal inkscape audacity lmms openshot audacious linphone blender geany dia mixxx librecad kicad freecad k3b k3d oregano electric fritzing logisim partimage libreoffice-help-el cups
+d-i pkgsel/upgrade select safe-upgrade
+
+#Boot-Installer, Ρυθμίσεις Εγκατάστασης Λογισμικού Εκκίνησης Λειτουργικού
+d-i grub-installer/only_debian boolean true
+d-i grub-installer/with_other_os boolean true
+d-i finish-install/reboot_in_progress note
+
+#Post-Installation Commands, Ρυθμίσεις σεναρίων προς εκτέλεση μετά την εγκατάσταση
+#d-i preseed/late_command string in-target wget -P /tmp/ http://$server/skript.sh; in-target chmod +x /tmp/s
+d-i preseed/late_command string \
+wget -O /target/tmp/google-chrome-stable_current_amd64.deb http://ostdev.minedu.gov.gr/~pgeorg/customDistros/ElementaryEdition/google-chrome-stable_current_amd64.deb; \
+  wget -O /target/tmp/essentialfiles.tar.gz http://ostdev.minedu.gov.gr/~afpapag/CustomDistros/IekEdition/essentialfiles2.tar.gz ; \
+    
+  in-target tar xvf /tmp/essentialfiles.tar.gz -C /tmp/ ; \
+  in-target mv /tmp/sources.list /etc/apt ; \
+  in-target mv /tmp/sudoers /etc ; \
+  in-target cp /tmp/RunME.desktop /home/student/RunME.desktop ; \
+ 
+  in-target cp /tmp/runme.sh /home/student/runme.sh ; \
+  in-target chown student:student /home/student/RunME.desktop ; \
+  
+  in-target chown student:student /home/student/runme.sh ; \
+  
+  in-target dpkg -i /tmp/google-chrome-stable_current_amd64.deb ; \
+
+  in-target chmod +x /home/student/runme.sh ; \
+  in-target chmod +x /home/student/*.desktop ; \
+  in-target chmod +x /tmp/postinstall.sh ; \
+  in-target /bin/sh /tmp/postinstall.sh ; \
+  in-target touch /root/postinstallationactions.done
